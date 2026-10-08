@@ -1,0 +1,4 @@
+subject,session,in_rawdata,any_nda_row,raw_T1w_files,nda_T1w_rows,raw_T2w_files,nda_T2w_rows,raw_DWI_files,nda_DWI_rows,raw_EPI_files,nda_EPI_rows,raw_BOLD_files,nda_BOLD_rows,missing_modalities
+sub-demo01,ses-1,1,1,1,0,0,0,2,1,0,0,0,0,T1w
+sub-demo01,ses-2,1,0,0,0,0,0,1,0,0,0,0,0,DWI
+sub-demo02,ses-1,1,1,0,0,0,0,1,1,0,0,0,0,

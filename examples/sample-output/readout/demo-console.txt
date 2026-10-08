@@ -1,0 +1,2 @@
+readout_seconds	source	sub_site	donor_count	phase_encoding_direction
+0.045	CSV_SUBSITE_INFERRED	synthetic_site	2	j-

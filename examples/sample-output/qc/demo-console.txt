@@ -1,0 +1,13 @@
+========================================================================
+Eddy QC comparison finished
+========================================================================
+With-slice-timing outputs    : 1
+Without-slice-timing outputs : 1
+Subject/session comparisons  : 1
+with_slice_timing             : 1
+Detailed metrics             : $REPO/examples/generated/report/eddy_qc_metrics_long.csv
+Pairwise comparison          : $REPO/examples/generated/report/eddy_qc_comparison_wide.csv
+Overall summary              : $REPO/examples/generated/report/eddy_qc_summary.csv
+Method notes                 : $REPO/examples/generated/report/README_eddy_qc_comparison.txt
+========================================================================
+Synthetic output: $REPO/examples/generated/report

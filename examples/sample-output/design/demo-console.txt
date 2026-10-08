@@ -1,0 +1,2 @@
+[FAt] wrote ScanList.txt, DesignMatrix.txt, DesignMatrix_ColumnNames.txt, Group.txt, Contrasts_reference.csv to $REPO/examples/generated/design/FAt (n = 4 subjects, 12 rows, mean baseline age = 37.75).
+[FW] wrote ScanList.txt, DesignMatrix.txt, DesignMatrix_ColumnNames.txt, Group.txt, Contrasts_reference.csv to $REPO/examples/generated/design/FW (n = 4 subjects, 12 rows, mean baseline age = 37.75).

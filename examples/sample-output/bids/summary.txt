@@ -1,0 +1,40 @@
+Rawdata: $REPO/examples/generated/rawdata
+NDA CSV: $REPO/examples/generated/image03.csv
+Reports: $REPO/examples/generated/nda_audit
+
+Original rawdata subjects (sub-* directories): 2
+Original rawdata subject/session directories: 3
+Distinct src_subject_id values in NDA CSV: 2
+Total NDA CSV data rows: 2
+NDA subjects with identifiable original IDs and sessions: 2
+NDA identifiable subject/session pairs: 2
+NDA subject/session pairs not in current rawdata: 0
+CSV rows requiring review: 0
+
+Modality      Raw files  Raw sessions   CSV rows  CSV sessions  Not matched
+T1w                   1             1          0             0            1
+T2w                   0             0          0             0            0
+DWI                   4             3          2             2            1
+EPI                   0             0          0             0            0
+BOLD                  0             0          0             0            0
+
+Original rawdata session labels:
+Session           Raw subjects  CSV subjects  Not matched
+ses-1                        2             2            0
+ses-2                        1             0            1
+
+Expected eddy datasets (one per rawdata DWI session): 3
+Whole imaging sessions not listed in CSV: 1
+Whole imaging sessions needing mapping review: 0
+Modality/session datasets not listed in CSV: 2
+Modality/session datasets needing mapping review: 0
+Functional image files matched to CSV run labels: 0
+Functional image files not listed in CSV: 0
+Functional image files needing run-label review: 0
+
+Coverage is checked by original subject, session, and modality; each DWI session counts once.
+CSV rows are records, not necessarily individual raw images or functional runs.
+Functional runs are compared using task/acq/dir/run/echo labels; absent labels are flagged for review.
+The comparison checks CSV contents; NDA submission acceptance is not verified.
+Review unresolved_nda_rows.csv before treating unconfirmed matches as missing.
+Visit values such as Baseline or 0 are preserved; they are not assumed to mean ses-1.

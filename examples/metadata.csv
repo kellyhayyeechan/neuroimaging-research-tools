@@ -1,0 +1,4 @@
+subject,session,file,sub_site,TotalReadoutTime,QC_exclusion
+sub-demo01,ses-1,sub-demo01_ses-1_dwi.json,synthetic_site,,
+sub-demo02,ses-1,sub-demo02_ses-1_dwi.json,synthetic_site,0.045,
+sub-demo03,ses-1,sub-demo03_ses-1_dwi.json,synthetic_site,0.045,

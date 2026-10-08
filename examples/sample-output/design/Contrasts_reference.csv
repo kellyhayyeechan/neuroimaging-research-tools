@@ -1,0 +1,5 @@
+contrast_name,vector
+Time (change over follow-up),0 1 0 0 0
+Baseline age (cross-sectional),0 0 1 0 0
+Age x Time (acceleration/deceleration),0 0 0 1 0
+Sex,0 0 0 0 1
